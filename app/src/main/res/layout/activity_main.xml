@@ -7,20 +7,20 @@
     tools:context=".MainActivity">
 
     <ImageView
-        android:id="@+id/imageV"
+        android:id="@+id/memes_image"
         android:layout_width="0dp"
         android:layout_height="400dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
     <Button
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="60dp"
+        android:id="@+id/next_meme_btn"
         android:text="Next Meme"
-        android:textSize="30dp"
-        android:id="@+id/refrashbtn"
         android:backgroundTint="@color/black"
-        app:layout_constraintBottom_toBottomOf="parent"
-        android:layout_marginBottom="30dp"/>
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
